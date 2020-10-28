@@ -60,7 +60,7 @@
   
   <url>
     <loc>https://LuYuhao0624.github.io/es/blog/</loc>
-    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
+    <lastmod>2020-10-28T13:24:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,6 +70,26 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://LuYuhao0624.github.io/es/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/blog/deploy_introduction.zh/</loc>
+    <lastmod>2020-10-28T13:24:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/</loc>
+    <lastmod>2020-10-28T13:24:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/"
                 />
   </url>
   
@@ -145,21 +165,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://LuYuhao0624.github.io/es/blog/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://LuYuhao0624.github.io/es/</loc>
-    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://LuYuhao0624.github.io/es/"
                 />
   </url>
   
