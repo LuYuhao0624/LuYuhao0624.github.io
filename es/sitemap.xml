@@ -6,11 +6,6 @@
     <loc>https://LuYuhao0624.github.io/es/projects/photography/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/projects/photography/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://LuYuhao0624.github.io/projects/photography/"
                 />
@@ -23,11 +18,6 @@
   
   <url>
     <loc>https://LuYuhao0624.github.io/es/projects/design/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/projects/design/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -44,11 +34,6 @@
     <loc>https://LuYuhao0624.github.io/es/projects/writing/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/projects/writing/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://LuYuhao0624.github.io/projects/writing/"
                 />
@@ -63,11 +48,6 @@
     <loc>https://LuYuhao0624.github.io/es/projects/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://LuYuhao0624.github.io/projects/"
                 />
@@ -80,12 +60,7 @@
   
   <url>
     <loc>https://LuYuhao0624.github.io/es/blog/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/blog/"
-                />
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -99,98 +74,8 @@
   </url>
   
   <url>
-    <loc>https://LuYuhao0624.github.io/es/blog/hipser-ipsum/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://LuYuhao0624.github.io/es/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://LuYuhao0624.github.io/es/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://LuYuhao0624.github.io/es/tags/ipsum/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/tags/ipsum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/tags/ipsum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://LuYuhao0624.github.io/es/tags/ipsum/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://LuYuhao0624.github.io/es/tags/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://LuYuhao0624.github.io/es/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://LuYuhao0624.github.io/es/tags/words/</loc>
-    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/tags/words/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/tags/words/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://LuYuhao0624.github.io/es/tags/words/"
-                />
-  </url>
-  
-  <url>
     <loc>https://LuYuhao0624.github.io/es/tags/code/</loc>
-    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/tags/code/"
-                />
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -204,13 +89,158 @@
   </url>
   
   <url>
-    <loc>https://LuYuhao0624.github.io/es/blog/startup-ipsum/</loc>
-    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
+    <loc>https://LuYuhao0624.github.io/es/series/quickstart/</loc>
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/blog/startup-ipsum/"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/series/quickstart/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/series/quickstart/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/series/</loc>
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/tags/</loc>
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/blog/configuration/</loc>
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/blog/configuration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/blog/configuration/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/</loc>
+    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/blog/long-form-post/</loc>
+    <lastmod>2020-05-30T20:18:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/blog/long-form-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/blog/long-form-post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/tags/blog/</loc>
+    <lastmod>2020-05-30T20:18:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/tags/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/tags/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/blog/hipster-ipsum/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/blog/hipster-ipsum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/blog/hipster-ipsum/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/tags/ipsum/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/tags/ipsum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/tags/ipsum/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/tags/words/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/tags/words/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://LuYuhao0624.github.io/es/tags/words/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/es/blog/startup-ipsum/</loc>
+    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -228,11 +258,6 @@
     <lastmod>2017-11-01T12:04:16-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/tags/coffee/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://LuYuhao0624.github.io/tags/coffee/"
                 />
@@ -246,11 +271,6 @@
   <url>
     <loc>https://LuYuhao0624.github.io/es/blog/coffee-ipsum/</loc>
     <lastmod>2017-11-01T12:04:16-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/blog/coffee-ipsum/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -268,11 +288,6 @@
     <lastmod>2017-11-01T12:04:16-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/tags/images/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://LuYuhao0624.github.io/tags/images/"
                 />
@@ -284,21 +299,16 @@
   </url>
   
   <url>
-    <loc>https://LuYuhao0624.github.io/es/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://LuYuhao0624.github.io/de/series/"
-                />
+    <loc>https://LuYuhao0624.github.io/es/blog/no-date/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://LuYuhao0624.github.io/series/"
+                href="https://LuYuhao0624.github.io/blog/no-date/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://LuYuhao0624.github.io/es/series/"
+                href="https://LuYuhao0624.github.io/es/blog/no-date/"
                 />
   </url>
   

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introducción</title>
+    <title>陆昱昊的个人主页</title>
     <link>https://LuYuhao0624.github.io/es/</link>
-    <description>Recent content on Introducción</description>
+    <description>Recent content on 陆昱昊的个人主页</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Mon, 13 Nov 2017 11:58:39 -0500</lastBuildDate><atom:link href="https://LuYuhao0624.github.io/es/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 25 Jul 2020 02:04:06 -0500</lastBuildDate><atom:link href="https://LuYuhao0624.github.io/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fotografía</title>
+      <title>Photography</title>
       <link>https://LuYuhao0624.github.io/es/projects/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LuYuhao0624.github.io/es/projects/photography/</guid>
-      <description>A veces tomo fotografías Este proyecto es sobre fotografías que tomo. A veces, son fotos de gatos.</description>
+      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
     </item>
     
     <item>
-      <title>Diseño</title>
+      <title>Design</title>
       <link>https://LuYuhao0624.github.io/es/projects/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LuYuhao0624.github.io/es/projects/design/</guid>
-      <description>Este tema fue diseñado por Victoria Drake. Ve, explora! 💪
-Si deseas usarlo en tu sitio web, revisa la sección al final de la página principal. 👍</description>
+      <description>This theme was designed by Victoria Drake. Go on, explore! 💪
+If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
     </item>
     
     <item>
-      <title>Escribiendo</title>
+      <title>Writing</title>
       <link>https://LuYuhao0624.github.io/es/projects/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -37,16 +37,38 @@ To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon fro
     </item>
     
     <item>
-      <title>Hipster Ipsum - Español</title>
-      <link>https://LuYuhao0624.github.io/es/blog/hipser-ipsum/</link>
+      <title>Theme Features</title>
+      <link>https://LuYuhao0624.github.io/es/blog/configuration/</link>
+      <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/es/blog/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Introduction allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.
+Below is an example configuration for Highlight. See Highlight in the Hugo docs for more.
+[markup] [markup.highlight] codeFences = true guessSyntax = false hl_Lines = &amp;#34;&amp;#34; lineNoStart = 1 lineNos = false lineNumbersInTable = true noClasses = true # For styles, see https://xyproto.</description>
+    </item>
+    
+    <item>
+      <title>**Long** Form Post!</title>
+      <link>https://LuYuhao0624.github.io/es/blog/long-form-post/</link>
+      <pubDate>Sat, 30 May 2020 20:18:53 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/es/blog/long-form-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pharetra magna ac placerat vestibulum lectus mauris. Eget lorem dolor sed viverra ipsum.
+Elementum Nisi Quis eleifend quam adipiscing. Aliquet nec ullamcorper sit amet risus. Auctor neque vitae tempus quam pellentesque. Tincidunt lobortis feugiat vivamus at augue.</description>
+    </item>
+    
+    <item>
+      <title>Hipster Ipsum</title>
+      <link>https://LuYuhao0624.github.io/es/blog/hipster-ipsum/</link>
       <pubDate>Mon, 13 Nov 2017 11:58:39 -0500</pubDate>
       
-      <guid>https://LuYuhao0624.github.io/es/blog/hipser-ipsum/</guid>
+      <guid>https://LuYuhao0624.github.io/es/blog/hipster-ipsum/</guid>
       <description>Occupy mlkshk kale chips woke, listicle locavore next level fingerstache glossier aesthetic man braid before they sold out kitsch prism. Cred copper mug freegan, flannel YOLO single-origin coffee skateboard artisan four loko church-key man bun. Synth literally gastropub, kombucha chillwave helvetica offal truffaut church-key freegan pop-up gentrify narwhal. Kombucha viral vexillologist green juice. Slow-carb hoodie mumblecore tumeric tattooed meditation, lo-fi fap cred affogato forage whatever austin. Shabby chic direct trade migas, brunch gochujang sriracha chambray fanny pack 8-bit mustache letterpress.</description>
     </item>
     
     <item>
-      <title>Startup Ipsum - Español</title>
+      <title>Startup Ipsum</title>
       <link>https://LuYuhao0624.github.io/es/blog/startup-ipsum/</link>
       <pubDate>Mon, 06 Nov 2017 12:04:06 -0500</pubDate>
       
@@ -55,12 +77,21 @@ To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon fro
     </item>
     
     <item>
-      <title>Coffee Ipsum - Español</title>
+      <title>Coffee Ipsum</title>
       <link>https://LuYuhao0624.github.io/es/blog/coffee-ipsum/</link>
       <pubDate>Wed, 01 Nov 2017 12:04:16 -0500</pubDate>
       
       <guid>https://LuYuhao0624.github.io/es/blog/coffee-ipsum/</guid>
       <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong. Americano caffeine white, con panna saucer sit, con panna eu, carajillo aftertaste kopi-luwak, body aftertaste cup single origin café au lait saucer. Macchiato java sweet arabica, turkish cup, eu flavour mug extraction white cortado saucer est white brewed instant, rich, barista breve cappuccino barista organic.</description>
+    </item>
+    
+    <item>
+      <title>Undated post</title>
+      <link>https://LuYuhao0624.github.io/es/blog/no-date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/es/blog/no-date/</guid>
+      <description>I was born yesterday, tomorrow.</description>
     </item>
     
   </channel>

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proyectos on Introducción</title>
+    <title>Projects on 陆昱昊的个人主页</title>
     <link>https://LuYuhao0624.github.io/es/projects/</link>
-    <description>Recent content in Proyectos on Introducción</description>
+    <description>Recent content in Projects on 陆昱昊的个人主页</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://LuYuhao0624.github.io/es/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language><atom:link href="https://LuYuhao0624.github.io/es/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fotografía</title>
+      <title>Photography</title>
       <link>https://LuYuhao0624.github.io/es/projects/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LuYuhao0624.github.io/es/projects/photography/</guid>
-      <description>A veces tomo fotografías Este proyecto es sobre fotografías que tomo. A veces, son fotos de gatos.</description>
+      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
     </item>
     
     <item>
-      <title>Diseño</title>
+      <title>Design</title>
       <link>https://LuYuhao0624.github.io/es/projects/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LuYuhao0624.github.io/es/projects/design/</guid>
-      <description>Este tema fue diseñado por Victoria Drake. Ve, explora! 💪
-Si deseas usarlo en tu sitio web, revisa la sección al final de la página principal. 👍</description>
+      <description>This theme was designed by Victoria Drake. Go on, explore! 💪
+If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
     </item>
     
     <item>
-      <title>Escribiendo</title>
+      <title>Writing</title>
       <link>https://LuYuhao0624.github.io/es/projects/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
