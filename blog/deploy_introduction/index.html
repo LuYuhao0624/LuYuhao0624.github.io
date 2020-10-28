@@ -150,7 +150,7 @@ Deploy Introduction on Git Hub With Hugo ( Windows) - Lu Yuhao&rsquo;s homepage
 
             
             
-            <a class="navbar-item" href="https://LuYuhao0624.github.io/es/">中文</a>
+            <a class="navbar-item" href="https://LuYuhao0624.github.io/zh-cn/">中文</a>
             
             
             
@@ -172,7 +172,7 @@ Deploy Introduction on Git Hub With Hugo ( Windows) - Lu Yuhao&rsquo;s homepage
     </h2>
     <div class="post-data">
         Oct 28, 2020 |
-        2 minutes read
+        3 minutes read
     </div>
     
     <div class="blog-share">
@@ -224,6 +224,21 @@ Deploy Introduction on Git Hub With Hugo ( Windows) - Lu Yuhao&rsquo;s homepage
 <p>But now, if you visit your website, you might find that some icons do not show up and turn into some annoying rectangles. Also, the local time at the bottom of the page is probably not loaded. If you do not get these problems, then congrats, customize your website now.</p>
 <p>For the first problem, go to edit the <code>config.toml</code> file in your site root. If the value of <code>baseURL</code> starts with <code>http://</code>, then change it into <code>https://</code>. This will solve your problem, rebuild, push to GitHub and you will see it succeeds (it may take a while for these changes to take effect on your website).</p>
 <p>The second problem is in the Issues of Introduction GitHub, but that thread does not have a solution. You will receive an error like &ldquo;Failed to find a valid digest in the &lsquo;integrity&rsquo; attribute&rdquo; if you open the console in your website (<code>ctrl+shift+J</code> for Chrome). This is because the end of line is changed from LF to CRLF in Windows when using Git (if you have it configured). The way to solve this is to reset all the CRLF to LF. For users not very familiar with Git, before <code>git add .</code> in <code>public</code> directory, you can configure Git by <code>git config --global core.autocrlf false</code> and add, commit and push. If you have already added the files, update with <code>git add . -u</code>. After pushing the changes to remote, you can set it back to your original settings. Now go to your website to see that everything works fine!</p>
+<p>For Windows users, I also write a <code>.bat</code> file to automate the upload procedure.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git config --global core.crlf <span style="color:#007020">false</span>
+
+hugo -D
+
+<span style="color:#007020">cd</span> public
+
+git add .
+
+git commit -m <span style="color:#4070a0">&#34;updated&#34;</span>
+
+git push origin master
+
+git config --global core.crlf <span style="color:#007020">true</span>
+</code></pre></div><p>save the content in a file, e.g. <code>upload.bat</code>, in the site root and double click on it to push all changes to remote.</p>
 
 </div>
 

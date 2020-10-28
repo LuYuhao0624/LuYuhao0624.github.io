@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quickstart on 陆昱昊的个人主页</title>
+    <link>https://LuYuhao0624.github.io/zh-cn/series/quickstart/</link>
+    <description>Recent content in quickstart on 陆昱昊的个人主页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 25 Jul 2020 02:04:06 -0500</lastBuildDate><atom:link href="https://LuYuhao0624.github.io/zh-cn/series/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Features</title>
+      <link>https://LuYuhao0624.github.io/zh-cn/blog/configuration/</link>
+      <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/zh-cn/blog/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Introduction allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.
+Below is an example configuration for Highlight. See Highlight in the Hugo docs for more.
+[markup] [markup.highlight] codeFences = true guessSyntax = false hl_Lines = &amp;#34;&amp;#34; lineNoStart = 1 lineNos = false lineNumbersInTable = true noClasses = true # For styles, see https://xyproto.</description>
+    </item>
+    
+  </channel>
+</rss>
