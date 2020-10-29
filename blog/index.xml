@@ -13,8 +13,7 @@
       <pubDate>Wed, 28 Oct 2020 13:21:35 +0800</pubDate>
       
       <guid>https://LuYuhao0624.github.io/blog/deploy_introduction/</guid>
-      <description>After 2 days of trial and error, I finally deployed the example site of Introduction theme on my GitHub homepage. Follow this tutorial to avoid all troublesome warnings and errors on Windows. To give you a bit of background, I am totally new to foreground stuff, like html, js and so on, so I believe every one can handle it.
-Basically, you can follow the tutorial on Hugo docs and Introduction.</description>
+      <description>&lt;p&gt;After 2 days of trial and error, I finally deployed the example site of  &lt;a href=&#34;https://themes.gohugo.io/hugo-theme-introduction/&#34;&gt;Introduction&lt;/a&gt; theme on my GitHub homepage. Follow this tutorial to avoid all troublesome warnings and errors on Windows. To give you a bit of background, I am totally new to foreground stuff, like &lt;code&gt;html&lt;/code&gt;, &lt;code&gt;js&lt;/code&gt; and so on, so I believe every one can handle it.&lt;/p&gt;</description>
     </item>
     
     <item>
