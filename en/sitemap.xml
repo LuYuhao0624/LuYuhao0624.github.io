@@ -3,31 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://LuYuhao0624.github.io/projects/photography/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://LuYuhao0624.github.io/zh-cn/projects/photography/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/projects/photography/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://LuYuhao0624.github.io/projects/design/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://LuYuhao0624.github.io/zh-cn/projects/design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://LuYuhao0624.github.io/projects/design/"
-                />
+    <loc>https://LuYuhao0624.github.io/projects/tradesoh/</loc>
   </url>
   
   <url>
@@ -41,6 +17,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://LuYuhao0624.github.io/projects/writing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://LuYuhao0624.github.io/projects/photography/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://LuYuhao0624.github.io/zh-cn/projects/photography/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://LuYuhao0624.github.io/projects/photography/"
                 />
   </url>
   

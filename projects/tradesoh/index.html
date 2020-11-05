@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en-us">
     <head>
         
         <meta charset="utf-8">
@@ -8,30 +8,22 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="网页描述">
+<meta name="description" content="Website Description">
 <title>
-Photography - 陆昱昊的个人主页
+Tradesoh - Lu Yuhao&rsquo;s homepage
 </title>
 
 
 
-        <meta property="og:title" content="Photography - 陆昱昊的个人主页" />
+        <meta property="og:title" content="Tradesoh - Lu Yuhao&rsquo;s homepage" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="网页描述"/>
-<meta property="og:url" content="https://LuYuhao0624.github.io/zh-cn/projects/photography/"/>
-<meta property="og:site_name" content="陆昱昊的个人主页"/>
+<meta property="og:description" content="Website Description"/>
+<meta property="og:url" content="https://LuYuhao0624.github.io/projects/tradesoh/"/>
+<meta property="og:site_name" content="Lu Yuhao&rsquo;s homepage"/>
 
 
 
-<meta property="og:image" content="https://LuYuhao0624.github.io/zh-cn/projects/photography/camera.jpg"/>
-
-<meta property="og:image" content="https://LuYuhao0624.github.io/zh-cn/projects/photography/erik-jan-leusink-180382-unsplash.jpg"/>
-
-<meta property="og:image" content="https://LuYuhao0624.github.io/zh-cn/projects/photography/lorene-farrugia-JpmC-tAHiVA-unsplash.jpg"/>
-
-<meta property="og:image" content="https://LuYuhao0624.github.io/zh-cn/projects/photography/mario-ho-277298-unsplash.jpg"/>
-
-<meta property="og:image" content="https://LuYuhao0624.github.io/zh-cn/projects/photography/tyler-lastovich-285380-unsplash.jpg"/>
+<meta property="og:image" content="https://LuYuhao0624.github.io/projects/tradesoh/cover.png"/>
 
 
 
@@ -66,7 +58,7 @@ Photography - 陆昱昊的个人主页
             
             <div class="container hero  fade-in one ">
                 
-                <h1 class="bold-title is-1">Photography</h1>
+                <h1 class="bold-title is-1">Tradesoh</h1>
                 
             </div>
             
@@ -86,7 +78,7 @@ Photography - 陆昱昊的个人主页
             
             
             
-            <a class="navbar-item" href="/zh-cn/">主页</a>
+            <a class="navbar-item" href="/">main</a>
             
 
             
@@ -105,7 +97,7 @@ Photography - 陆昱昊的个人主页
             
             
             
-            <a class="navbar-item" href="/zh-cn/#about">关于</a>
+            <a class="navbar-item" href="/#about">About</a>
             
             
             
@@ -115,10 +107,10 @@ Photography - 陆昱昊的个人主页
                 
                 
                 
-                  <a class="navbar-item" href="https://LuYuhao0624.github.io/zh-cn/projects/">
+                  <a class="navbar-item" href="https://LuYuhao0624.github.io/projects/">
                   
                   
-                  项目
+                  Projects
                   
                   
                   </a>
@@ -133,9 +125,9 @@ Photography - 陆昱昊的个人主页
                 
                 
                 
-                  <a class="navbar-item" href="https://LuYuhao0624.github.io/zh-cn/blog/">
+                  <a class="navbar-item" href="https://LuYuhao0624.github.io/blog/">
                   
-                  文章
+                  Blog
                   
                   </a>
                 
@@ -145,7 +137,7 @@ Photography - 陆昱昊的个人主页
             
             
             
-            <a class="navbar-item" href="/zh-cn/#lorem">Lorem Ipsum</a>
+            <a class="navbar-item" href="/#lorem">Lorem Ipsum</a>
             
             
             
@@ -153,15 +145,15 @@ Photography - 陆昱昊的个人主页
 
             
             
-            <a class="navbar-item" href="/zh-cn/#contact">联系方式</a>
+            <a class="navbar-item" href="/#contact">Contact</a>
             
             
 
             
             
+            <a class="navbar-item" href="https://LuYuhao0624.github.io/zh-cn/">中文</a>
             
             
-            <a class="navbar-item" href="https://LuYuhao0624.github.io/">English</a>
             
             
 
@@ -178,9 +170,46 @@ Photography - 陆昱昊的个人主页
     <div class="container markdown top-pad">
         
         
-        
-<h2 id="sometimes-i-take-pictures" class="anchor-link"><a href="#sometimes-i-take-pictures">Sometimes I take pictures</a></h2>
-<p>This project is about the pictures I take. Sometimes, they are pictures of cats.</p>
+        <head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+<p><em>This project is still ongoing.</em></p>
+<p>This project is about <a href="https://openai.com/blog/adversarial-example-research/">adversarial robustness</a>. In short, for a deep classifier (although it applies to most deep neural networks), we can add an imperceptible perturbation to the input so that the classifier predicts it incorrectly. We are exploring adversarial training, a straightforward but effective way of defense, based on <em>Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization</em> (TRADES) proposed by H Zhang <em>et al.</em> in <a href="https://arxiv.org/abs/1901.08573">[1]</a>.</p>
+<p>We made three major modifications to TRADES and have obtained non-trivial improvement on MNIST. Below is the evaluation. The model used for TRADES is the <a href="https://drive.google.com/file/d/1scTd9-YO3-5Ul3q5SJuRrTNX__LYLD_M/view?usp=sharing">checkpoint</a> released in their <a href="https://github.com/yaodongyu/TRADES">GitHub</a>. You can find ours <a href="https://drive.google.com/file/d/1UwQHNFtWxAE3j41yseIrD1_iSZakECHH/view?usp=sharing">here</a>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Model</th>
+<th style="text-align:center">Robustness-1</th>
+<th style="text-align:center">Robustness-10</th>
+<th style="text-align:center">Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Ours</td>
+<td style="text-align:center"><strong>97.52%</strong></td>
+<td style="text-align:center"><strong>96.53%</strong></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">TRADES</td>
+<td style="text-align:center">96.69%</td>
+<td style="text-align:center">95.59%</td>
+<td style="text-align:center">99.48%</td>
+</tr>
+</tbody>
+</table>
+<p>We use PGD-40 with 0.01 step size and 0.3 perturbation budget (same setting as TRADES). Robustness-$i$ indicates $i$ random starts.</p>
+<p>$$a = \int$$</p>
 
     </div>
     
@@ -206,7 +235,7 @@ Photography - 陆昱昊的个人主页
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> 主题为 <a href="http://gohugo.io/">Hugo</a> 而设。由开源社群贡献者以 <a href="https://victoria.dev"><i class="fa fa-heart"></i> 和 <i class="fa fa-coffee"></i></a> 创造。
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>

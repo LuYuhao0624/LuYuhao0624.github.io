@@ -8,22 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Oct 2020 13:21:35 +0800</lastBuildDate><atom:link href="https://LuYuhao0624.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Photography</title>
-      <link>https://LuYuhao0624.github.io/projects/photography/</link>
+      <title>Tradesoh</title>
+      <link>https://LuYuhao0624.github.io/projects/tradesoh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://LuYuhao0624.github.io/projects/photography/</guid>
-      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://LuYuhao0624.github.io/projects/design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://LuYuhao0624.github.io/projects/design/</guid>
-      <description>This theme was designed by Victoria Drake. Go on, explore! 💪
-If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
+      <guid>https://LuYuhao0624.github.io/projects/tradesoh/</guid>
+      <description>MathJax.Hub.Config({ tex2jax: { skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], inlineMath: [[&#39;$&#39;,&#39;$&#39;]] } });   This project is still ongoing.
+This project is about adversarial robustness. In short, for a deep classifier (although it applies to most deep neural networks), we can add an imperceptible perturbation to the input so that the classifier predicts it incorrectly. We are exploring adversarial training, a straightforward but effective way of defense, based on Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization (TRADES) proposed by H Zhang et al.</description>
     </item>
     
     <item>
@@ -34,6 +25,15 @@ If you want to use it for your website, check out the section at the bottom of t
       <guid>https://LuYuhao0624.github.io/projects/writing/</guid>
       <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
 To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://LuYuhao0624.github.io/projects/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/projects/photography/</guid>
+      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
     </item>
     
     <item>
