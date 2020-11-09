@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://LuYuhao0624.github.io/projects/tradesoh/</guid>
-      <description>MathJax.Hub.Config({ tex2jax: { skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], inlineMath: [[&#39;$&#39;,&#39;$&#39;]] } });   This project is still ongoing.
+      <description>MathJax.Hub.Config({ tex2jax: { skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], inlineMath: [[&#39;$&#39;,&#39;$&#39;]] } });   This project is still in progress.
 This project is about adversarial robustness. In short, for a deep classifier (although it applies to most deep neural networks), we can add an imperceptible perturbation to the input so that the classifier predicts it incorrectly. We are exploring adversarial training, a straightforward but effective way of defense, based on Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization (TRADES) proposed by H Zhang et al.</description>
     </item>
     
