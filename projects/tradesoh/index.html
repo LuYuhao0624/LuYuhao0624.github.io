@@ -183,115 +183,61 @@ Tradesoh - Lu Yuhao&rsquo;s homepage
 </head>
 <p><em>This project is still in progress.</em></p>
 <p>This project is about <a href="https://openai.com/blog/adversarial-example-research/">adversarial robustness</a>. In short, for a deep classifier (although it applies to most deep neural networks), we can add an imperceptible perturbation to the input so that the classifier predicts it incorrectly. We are exploring adversarial training, a straightforward but effective way of defense, based on <em>Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization</em> (TRADES) proposed by H Zhang <em>et al.</em> in <a href="https://arxiv.org/abs/1901.08573">[1]</a>.</p>
-<p>We made three major modifications to TRADES and have obtained non-trivial improvement on MNIST. Below is the evaluation. All metrics are evaluated with respect to the test set. The model used for TRADES is the <a href="https://drive.google.com/file/d/1scTd9-YO3-5Ul3q5SJuRrTNX__LYLD_M/view?usp=sharing">checkpoint</a> released in their <a href="https://github.com/yaodongyu/TRADES">GitHub</a>. You can find ours <a href="https://drive.google.com/file/d/1jqnNsvKTdBK8tb4k6x2KiAEN4DmQHU-Z/view?usp=sharing">here</a>.</p>
+<p>We made three major modifications to TRADES and have obtained non-trivial improvement on MNIST. Below is the evaluation. All metrics are evaluated with respect to the test set. The model used for TRADES is the <a href="https://drive.google.com/file/d/1scTd9-YO3-5Ul3q5SJuRrTNX__LYLD_M/view?usp=sharing">checkpoint</a> released in their <a href="https://github.com/yaodongyu/TRADES">GitHub</a>. You can find ours <a href="https://drive.google.com/file/d/1jqnNsvKTdBK8tb4k6x2KiAEN4DmQHU-Z/view?usp=sharing">here</a>. Since we are still tuning hyper-parameters on Cifar10, the table below will be under frequent updates, so we do not bother to release our best checkpoints now. If you want to play with it, feel free to <a href="https://luyuhao0624.github.io/#contact">contact</a> me. The metrics of TRADES are taken from literature (see above).</p>
 <table>
 <thead>
 <tr>
 <th style="text-align:center">Model</th>
-<th style="text-align:center">Robustness-1</th>
-<th style="text-align:center">Robustness-10</th>
-<th style="text-align:center">Accuracy</th>
+<th style="text-align:center">Dataset</th>
+<th style="text-align:center">1-PGD	(%)</th>
+<th style="text-align:center">10-PGD (%)</th>
+<th style="text-align:center">Accuracy (%)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:center">Ours</td>
-<td style="text-align:center"><strong>97.52%</strong></td>
-<td style="text-align:center"><strong>96.53%</strong></td>
-<td style="text-align:center">99.30%</td>
+<td style="text-align:center">MNIST</td>
+<td style="text-align:center"><strong>$97.52$</strong></td>
+<td style="text-align:center"><strong>$96.53$</strong></td>
+<td style="text-align:center">$99.30$</td>
 </tr>
 <tr>
 <td style="text-align:center">TRADES</td>
-<td style="text-align:center">96.69%</td>
-<td style="text-align:center">95.59%</td>
-<td style="text-align:center">99.48%</td>
+<td style="text-align:center">MNIST</td>
+<td style="text-align:center">$96.69$</td>
+<td style="text-align:center">$95.59$</td>
+<td style="text-align:center"><strong>$99.48$</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">Ours</td>
+<td style="text-align:center">Cifar10</td>
+<td style="text-align:center"><strong>$51.34\pm0.09$</strong></td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center">$79.11$</td>
+</tr>
+<tr>
+<td style="text-align:center">TRADES</td>
+<td style="text-align:center">Cifar10</td>
+<td style="text-align:center">$50.64\pm0.33$</td>
+<td style="text-align:center">$-$</td>
+<td style="text-align:center"><strong>$81.72$</strong></td>
 </tr>
 </tbody>
 </table>
-<p>We use PGD-40 with 0.01 step size and 0.3 perturbation budget (same setting as TRADES). Robustness-$i$ indicates $i$ random starts.</p>
-<p>To load our model, using the following scripts.</p>
+<p>We use the same setting as TRADES (PGD-40 with 0.01 step size and 0.3 perturbation budget, PGD-20 with 0.003 step size and 0.031 perturbation budget) to evaluate. $i$-PGD indicates $i$ random starts.</p>
+<p>To load our model, using the following scripts. You can find <code>small_cnn.py</code>, <code>net_mnist.py</code> and <code>resnet.py</code> in the <a href="https://github.com/yaodongyu/TRADES/tree/master/models">GitHub</a> of TRADES.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#60a0b0;font-style:italic"># main.py</span>
-<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">models.small_cnn</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>  <span style="color:#60a0b0;font-style:italic"># see below</span>
-<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">models.net_mnist</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>  <span style="color:#60a0b0;font-style:italic"># see below</span>
+<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">models.small_cnn</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>  <span style="color:#60a0b0;font-style:italic"># for MNIST models</span>
+<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">models.net_mnist</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>  <span style="color:#60a0b0;font-style:italic"># for MNIST models</span>
+<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">models.resnet</span> <span style="color:#007020;font-weight:bold">import</span> <span style="color:#666">*</span>     <span style="color:#60a0b0;font-style:italic"># for Cifar10 models</span>
 
 model <span style="color:#666">=</span> SmallCNN()<span style="color:#666">.</span>to(device)
+<span style="color:#60a0b0;font-style:italic"># if using Cifar10, comment the line above,</span>
+<span style="color:#60a0b0;font-style:italic"># otherwise, comment the line below</span>
+model <span style="color:#666">=</span> ResNet18()<span style="color:#666">.</span>to(device)
+
 model<span style="color:#666">.</span>load_state_dict(torch<span style="color:#666">.</span>load(model_path))
-
-</code></pre></div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#60a0b0;font-style:italic"># models/small_cnn.py</span>
-<span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">torch</span>
-<span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">torch.nn</span> <span style="color:#007020;font-weight:bold">as</span> <span style="color:#0e84b5;font-weight:bold">nn</span>
-<span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">torch.nn.functional</span> <span style="color:#007020;font-weight:bold">as</span> <span style="color:#0e84b5;font-weight:bold">F</span>
-
-
-<span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Net</span>(nn<span style="color:#666">.</span>Module):
-    <span style="color:#007020;font-weight:bold">def</span> __init__(self):
-        <span style="color:#007020">super</span>(Net, self)<span style="color:#666">.</span>__init__()
-        self<span style="color:#666">.</span>conv1 <span style="color:#666">=</span> nn<span style="color:#666">.</span>Conv2d(<span style="color:#40a070">1</span>, <span style="color:#40a070">10</span>, kernel_size<span style="color:#666">=</span><span style="color:#40a070">5</span>)
-        self<span style="color:#666">.</span>conv2 <span style="color:#666">=</span> nn<span style="color:#666">.</span>Conv2d(<span style="color:#40a070">10</span>, <span style="color:#40a070">20</span>, kernel_size<span style="color:#666">=</span><span style="color:#40a070">5</span>)
-        self<span style="color:#666">.</span>conv2_drop <span style="color:#666">=</span> nn<span style="color:#666">.</span>Dropout2d()
-        self<span style="color:#666">.</span>fc1 <span style="color:#666">=</span> nn<span style="color:#666">.</span>Linear(<span style="color:#40a070">320</span>, <span style="color:#40a070">50</span>)
-        self<span style="color:#666">.</span>fc2 <span style="color:#666">=</span> nn<span style="color:#666">.</span>Linear(<span style="color:#40a070">50</span>, <span style="color:#40a070">10</span>)
-
-    <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">forward</span>(self, x):
-        x <span style="color:#666">=</span> F<span style="color:#666">.</span>relu(F<span style="color:#666">.</span>max_pool2d(self<span style="color:#666">.</span>conv1(x), <span style="color:#40a070">2</span>))
-        x <span style="color:#666">=</span> F<span style="color:#666">.</span>relu(F<span style="color:#666">.</span>max_pool2d(self<span style="color:#666">.</span>conv2_drop(self<span style="color:#666">.</span>conv2(x)), <span style="color:#40a070">2</span>))
-        x <span style="color:#666">=</span> x<span style="color:#666">.</span>view(<span style="color:#666">-</span><span style="color:#40a070">1</span>, <span style="color:#40a070">320</span>)
-        x <span style="color:#666">=</span> F<span style="color:#666">.</span>relu(self<span style="color:#666">.</span>fc1(x))
-        x <span style="color:#666">=</span> F<span style="color:#666">.</span>dropout(x, training<span style="color:#666">=</span>self<span style="color:#666">.</span>training)
-        x <span style="color:#666">=</span> self<span style="color:#666">.</span>fc2(x)
-        <span style="color:#007020;font-weight:bold">return</span> x
-
-</code></pre></div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#60a0b0;font-style:italic"># models/net_mnist.py</span>
-<span style="color:#007020;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">collections</span> <span style="color:#007020;font-weight:bold">import</span> OrderedDict
-<span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">torch.nn</span> <span style="color:#007020;font-weight:bold">as</span> <span style="color:#0e84b5;font-weight:bold">nn</span>
-
-
-<span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">SmallCNN</span>(nn<span style="color:#666">.</span>Module):
-    <span style="color:#007020;font-weight:bold">def</span> __init__(self, drop<span style="color:#666">=</span><span style="color:#40a070">0.5</span>):
-        <span style="color:#007020">super</span>(SmallCNN, self)<span style="color:#666">.</span>__init__()
-
-        self<span style="color:#666">.</span>num_channels <span style="color:#666">=</span> <span style="color:#40a070">1</span>
-        self<span style="color:#666">.</span>num_labels <span style="color:#666">=</span> <span style="color:#40a070">10</span>
-
-        activ <span style="color:#666">=</span> nn<span style="color:#666">.</span>ReLU(True)
-
-        self<span style="color:#666">.</span>feature_extractor <span style="color:#666">=</span> nn<span style="color:#666">.</span>Sequential(OrderedDict([
-            (<span style="color:#4070a0">&#39;conv1&#39;</span>, nn<span style="color:#666">.</span>Conv2d(self<span style="color:#666">.</span>num_channels, <span style="color:#40a070">32</span>, <span style="color:#40a070">3</span>)),
-            (<span style="color:#4070a0">&#39;relu1&#39;</span>, activ),
-            (<span style="color:#4070a0">&#39;conv2&#39;</span>, nn<span style="color:#666">.</span>Conv2d(<span style="color:#40a070">32</span>, <span style="color:#40a070">32</span>, <span style="color:#40a070">3</span>)),
-            (<span style="color:#4070a0">&#39;relu2&#39;</span>, activ),
-            (<span style="color:#4070a0">&#39;maxpool1&#39;</span>, nn<span style="color:#666">.</span>MaxPool2d(<span style="color:#40a070">2</span>, <span style="color:#40a070">2</span>)),
-            (<span style="color:#4070a0">&#39;conv3&#39;</span>, nn<span style="color:#666">.</span>Conv2d(<span style="color:#40a070">32</span>, <span style="color:#40a070">64</span>, <span style="color:#40a070">3</span>)),
-            (<span style="color:#4070a0">&#39;relu3&#39;</span>, activ),
-            (<span style="color:#4070a0">&#39;conv4&#39;</span>, nn<span style="color:#666">.</span>Conv2d(<span style="color:#40a070">64</span>, <span style="color:#40a070">64</span>, <span style="color:#40a070">3</span>)),
-            (<span style="color:#4070a0">&#39;relu4&#39;</span>, activ),
-            (<span style="color:#4070a0">&#39;maxpool2&#39;</span>, nn<span style="color:#666">.</span>MaxPool2d(<span style="color:#40a070">2</span>, <span style="color:#40a070">2</span>)),
-        ]))
-
-        self<span style="color:#666">.</span>classifier <span style="color:#666">=</span> nn<span style="color:#666">.</span>Sequential(OrderedDict([
-            (<span style="color:#4070a0">&#39;fc1&#39;</span>, nn<span style="color:#666">.</span>Linear(<span style="color:#40a070">64</span> <span style="color:#666">*</span> <span style="color:#40a070">4</span> <span style="color:#666">*</span> <span style="color:#40a070">4</span>, <span style="color:#40a070">200</span>)),
-            (<span style="color:#4070a0">&#39;relu1&#39;</span>, activ),
-            (<span style="color:#4070a0">&#39;drop&#39;</span>, nn<span style="color:#666">.</span>Dropout(drop)),
-            (<span style="color:#4070a0">&#39;fc2&#39;</span>, nn<span style="color:#666">.</span>Linear(<span style="color:#40a070">200</span>, <span style="color:#40a070">200</span>)),
-            (<span style="color:#4070a0">&#39;relu2&#39;</span>, activ),
-            (<span style="color:#4070a0">&#39;fc3&#39;</span>, nn<span style="color:#666">.</span>Linear(<span style="color:#40a070">200</span>, self<span style="color:#666">.</span>num_labels)),
-        ]))
-
-        <span style="color:#007020;font-weight:bold">for</span> m <span style="color:#007020;font-weight:bold">in</span> self<span style="color:#666">.</span>modules():
-            <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020">isinstance</span>(m, (nn<span style="color:#666">.</span>Conv2d)):
-                nn<span style="color:#666">.</span>init<span style="color:#666">.</span>kaiming_normal_(m<span style="color:#666">.</span>weight)
-                <span style="color:#007020;font-weight:bold">if</span> m<span style="color:#666">.</span>bias <span style="color:#007020;font-weight:bold">is</span> <span style="color:#007020;font-weight:bold">not</span> None:
-                    nn<span style="color:#666">.</span>init<span style="color:#666">.</span>constant_(m<span style="color:#666">.</span>bias, <span style="color:#40a070">0</span>)
-            <span style="color:#007020;font-weight:bold">elif</span> <span style="color:#007020">isinstance</span>(m, nn<span style="color:#666">.</span>BatchNorm2d):
-                nn<span style="color:#666">.</span>init<span style="color:#666">.</span>constant_(m<span style="color:#666">.</span>weight, <span style="color:#40a070">1</span>)
-                nn<span style="color:#666">.</span>init<span style="color:#666">.</span>constant_(m<span style="color:#666">.</span>bias, <span style="color:#40a070">0</span>)
-        nn<span style="color:#666">.</span>init<span style="color:#666">.</span>constant_(self<span style="color:#666">.</span>classifier<span style="color:#666">.</span>fc3<span style="color:#666">.</span>weight, <span style="color:#40a070">0</span>)
-        nn<span style="color:#666">.</span>init<span style="color:#666">.</span>constant_(self<span style="color:#666">.</span>classifier<span style="color:#666">.</span>fc3<span style="color:#666">.</span>bias, <span style="color:#40a070">0</span>)
-
-    <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">forward</span>(self, <span style="color:#007020">input</span>):
-        features <span style="color:#666">=</span> self<span style="color:#666">.</span>feature_extractor(<span style="color:#007020">input</span>)
-        logits <span style="color:#666">=</span> self<span style="color:#666">.</span>classifier(features<span style="color:#666">.</span>view(<span style="color:#666">-</span><span style="color:#40a070">1</span>, <span style="color:#40a070">64</span> <span style="color:#666">*</span> <span style="color:#40a070">4</span> <span style="color:#666">*</span> <span style="color:#40a070">4</span>))
-        <span style="color:#007020;font-weight:bold">return</span> logits
 
 </code></pre></div>
     </div>
