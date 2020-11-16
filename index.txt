@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lu Yuhao&#39;s homepage</title>
+    <link>https://LuYuhao0624.github.io/</link>
+    <description>Recent content on Lu Yuhao&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Oct 2020 13:21:35 +0800</lastBuildDate><atom:link href="https://LuYuhao0624.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tradesoh</title>
+      <link>https://LuYuhao0624.github.io/projects/tradesoh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/projects/tradesoh/</guid>
+      <description>MathJax.Hub.Config({ tex2jax: { skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;], inlineMath: [[&#39;$&#39;,&#39;$&#39;]] } });   This project is still in progress.
+This project is about adversarial robustness. In short, for a deep classifier (although it applies to most deep neural networks), we can add an imperceptible perturbation to the input so that the classifier predicts it incorrectly. We are exploring adversarial training, a straightforward but effective way of defense, based on Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization (TRADES) proposed by H Zhang et al.</description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://LuYuhao0624.github.io/projects/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/projects/writing/</guid>
+      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
+To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://LuYuhao0624.github.io/projects/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/projects/photography/</guid>
+      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
+    </item>
+    
+    <item>
+      <title>Deploy Introduction on GitHub with Hugo (Windows)</title>
+      <link>https://LuYuhao0624.github.io/blog/deploy_introduction/</link>
+      <pubDate>Wed, 28 Oct 2020 13:21:35 +0800</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/deploy_introduction/</guid>
+      <description>&lt;p&gt;After 2 days of trial and error, I finally deployed the example site of  &lt;a href=&#34;https://themes.gohugo.io/hugo-theme-introduction/&#34;&gt;Introduction&lt;/a&gt; theme on my GitHub homepage. Follow this tutorial to avoid all troublesome warnings and errors on Windows. To give you a bit of background, I am totally new to foreground stuff, like &lt;code&gt;html&lt;/code&gt;, &lt;code&gt;js&lt;/code&gt; and so on, so I believe every one can handle it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Features</title>
+      <link>https://LuYuhao0624.github.io/blog/configuration/</link>
+      <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/configuration/</guid>
+      <description>Here are some helpful tips for setting up this theme.
+Syntax Highlighting Introduction allows the use of Hugo&amp;rsquo;s rich built-in syntax highlighting capabilities. See Syntax Highlighting in the Hugo docs.
+Below is an example configuration for Highlight. See Highlight in the Hugo docs for more.
+[markup] [markup.highlight] codeFences = true guessSyntax = false hl_Lines = &amp;#34;&amp;#34; lineNoStart = 1 lineNos = false lineNumbersInTable = true noClasses = true # For styles, see https://xyproto.</description>
+    </item>
+    
+    <item>
+      <title>**Long** Form Post!</title>
+      <link>https://LuYuhao0624.github.io/blog/long-form-post/</link>
+      <pubDate>Sat, 30 May 2020 20:18:53 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/long-form-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus eget nunc scelerisque viverra. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Pharetra magna ac placerat vestibulum lectus mauris. Eget lorem dolor sed viverra ipsum.
+Elementum Nisi Quis eleifend quam adipiscing. Aliquet nec ullamcorper sit amet risus. Auctor neque vitae tempus quam pellentesque. Tincidunt lobortis feugiat vivamus at augue.</description>
+    </item>
+    
+    <item>
+      <title>Hipster Ipsum</title>
+      <link>https://LuYuhao0624.github.io/blog/hipster-ipsum/</link>
+      <pubDate>Mon, 13 Nov 2017 11:58:39 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/hipster-ipsum/</guid>
+      <description>Occupy mlkshk kale chips woke, listicle locavore next level fingerstache glossier aesthetic man braid before they sold out kitsch prism. Cred copper mug freegan, flannel YOLO single-origin coffee skateboard artisan four loko church-key man bun. Synth literally gastropub, kombucha chillwave helvetica offal truffaut church-key freegan pop-up gentrify narwhal. Kombucha viral vexillologist green juice. Slow-carb hoodie mumblecore tumeric tattooed meditation, lo-fi fap cred affogato forage whatever austin. Shabby chic direct trade migas, brunch gochujang sriracha chambray fanny pack 8-bit mustache letterpress.</description>
+    </item>
+    
+    <item>
+      <title>Startup Ipsum</title>
+      <link>https://LuYuhao0624.github.io/blog/startup-ipsum/</link>
+      <pubDate>Mon, 06 Nov 2017 12:04:06 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/startup-ipsum/</guid>
+      <description>SpaceTeam affordances quantitative vs. qualitative SpaceTeam physical computing earned media thinker-maker-doer pair programming. Bootstrapping pitch deck physical computing driven cortado human-centered design innovate human-centered design driven. Grok pitch deck fund pitch deck sticky note affordances minimum viable product integrate paradigm viral iterate. Driven fund thought leader personas workflow SpaceTeam viral pair programming physical computing intuitive 360 campaign latte bootstrapping minimum viable product. Bootstrapping physical computing responsive pitch deck SpaceTeam parallax long shadow pitch deck bootstrapping ideate.</description>
+    </item>
+    
+    <item>
+      <title>Coffee Ipsum</title>
+      <link>https://LuYuhao0624.github.io/blog/coffee-ipsum/</link>
+      <pubDate>Wed, 01 Nov 2017 12:04:16 -0500</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/coffee-ipsum/</guid>
+      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong. Americano caffeine white, con panna saucer sit, con panna eu, carajillo aftertaste kopi-luwak, body aftertaste cup single origin café au lait saucer. Macchiato java sweet arabica, turkish cup, eu flavour mug extraction white cortado saucer est white brewed instant, rich, barista breve cappuccino barista organic.</description>
+    </item>
+    
+    <item>
+      <title>Undated post</title>
+      <link>https://LuYuhao0624.github.io/blog/no-date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://LuYuhao0624.github.io/blog/no-date/</guid>
+      <description>I was born yesterday, tomorrow.</description>
+    </item>
+    
+  </channel>
+</rss>
