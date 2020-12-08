@@ -183,14 +183,13 @@ Tradesoh - Lu Yuhao&rsquo;s homepage
 </head>
 <p><em>This project is still in progress.</em></p>
 <p>This project is about <a href="https://openai.com/blog/adversarial-example-research/">adversarial robustness</a>. In short, for a deep classifier (although it applies to most deep neural networks), we can add an imperceptible perturbation to the input so that the classifier predicts it incorrectly. We are exploring adversarial training, a straightforward but effective way of defense, based on <em>Tradeoff-inspired Adversarial Defense via Surrogate-loss Minimization</em> (TRADES) proposed by H Zhang <em>et al.</em> in <a href="https://arxiv.org/abs/1901.08573">[1]</a>.</p>
-<p>We made three major modifications to TRADES and have obtained non-trivial improvement on MNIST. Below is the evaluation. All metrics are evaluated with respect to the test set. The model used for TRADES is the <a href="https://drive.google.com/file/d/1scTd9-YO3-5Ul3q5SJuRrTNX__LYLD_M/view?usp=sharing">checkpoint</a> released in their <a href="https://github.com/yaodongyu/TRADES">GitHub</a>. You can find ours <a href="https://drive.google.com/file/d/1jqnNsvKTdBK8tb4k6x2KiAEN4DmQHU-Z/view?usp=sharing">here</a>. Since we are still tuning hyper-parameters on Cifar10, the table below will be under frequent updates, so we do not bother to release our best checkpoints now. If you want to play with it, feel free to <a href="https://luyuhao0624.github.io/#contact">contact</a> me. The metrics of TRADES are taken from literature (see above).</p>
+<p>We made three major modifications to TRADES and have obtained non-trivial improvement on MNIST. Below is the evaluation. All metrics are evaluated with respect to the test set. The model used for TRADES is the <a href="https://drive.google.com/file/d/1scTd9-YO3-5Ul3q5SJuRrTNX__LYLD_M/view?usp=sharing">checkpoint</a> released in their <a href="https://github.com/yaodongyu/TRADES">GitHub</a>. You can find ours <a href="https://drive.google.com/file/d/1TckSIWr6Udvz0BJ9ke8DDQpIhbdFRXsf/view?usp=sharing">here</a>. Since we are still tuning hyper-parameters on Cifar10, the table below will be under frequent updates, so we do not bother to release our best checkpoints now. If you want to play with it, feel free to <a href="https://luyuhao0624.github.io/#contact">contact</a> me. The metrics of TRADES are taken from literature (see above).</p>
 <table>
 <thead>
 <tr>
 <th style="text-align:center">Model</th>
 <th style="text-align:center">Dataset</th>
 <th style="text-align:center">1-PGD	(%)</th>
-<th style="text-align:center">10-PGD (%)</th>
 <th style="text-align:center">Accuracy (%)</th>
 </tr>
 </thead>
@@ -198,29 +197,25 @@ Tradesoh - Lu Yuhao&rsquo;s homepage
 <tr>
 <td style="text-align:center">Ours</td>
 <td style="text-align:center">MNIST</td>
-<td style="text-align:center">$\color{red}{97.52}$</td>
-<td style="text-align:center">$\color{red}{96.53}$</td>
-<td style="text-align:center">$99.30$</td>
+<td style="text-align:center">$\color{red}{97.67}$</td>
+<td style="text-align:center">$99.43$</td>
 </tr>
 <tr>
 <td style="text-align:center">TRADES</td>
 <td style="text-align:center">MNIST</td>
 <td style="text-align:center">$96.69$</td>
-<td style="text-align:center">$95.59$</td>
 <td style="text-align:center">$\color{red}{99.48}$</td>
 </tr>
 <tr>
 <td style="text-align:center">Ours</td>
 <td style="text-align:center">Cifar10</td>
 <td style="text-align:center">$\color{red}{51.68}$</td>
-<td style="text-align:center">$-$</td>
 <td style="text-align:center">$\color{red}{82.90}$</td>
 </tr>
 <tr>
 <td style="text-align:center">TRADES</td>
 <td style="text-align:center">Cifar10</td>
 <td style="text-align:center">$50.64\pm0.33$</td>
-<td style="text-align:center">$-$</td>
 <td style="text-align:center">$81.72$</td>
 </tr>
 </tbody>
